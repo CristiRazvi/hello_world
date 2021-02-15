@@ -3,5 +3,6 @@ class HomeController < ApplicationController
   end
 
   def time
+    @time = Time.now
   end
 end
